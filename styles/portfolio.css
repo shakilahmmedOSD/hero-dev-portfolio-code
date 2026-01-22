@@ -40,6 +40,11 @@
    font-size: 35px;
    margin-bottom: 30px; 
 }
+.container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+}
 .section-heading p{
     font-size: 18px;
     margin-bottom: 30px;
@@ -59,10 +64,7 @@ header{
     background-repeat: no-repeat;
 }
 nav{
-    width: 82%;
-    max-width: 1317px;
-    /* border: 1px solid red; */
-    margin: 0px auto;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -119,9 +121,7 @@ nav .menu a{
     padding-top: 130px;
 }
 #about .about-container {
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
+   
     text-align: center;
     background-color: #FFF8F3;
     padding: 131px 156px;
@@ -139,12 +139,8 @@ nav .menu a{
     font-size: 20px;
 }
 
-#skills .skills-container{
-    width:71%;
-    max-width: 1140px;
-    margin: 0 auto;
 
-}
+
 #skills .skills-container .skill-box{
   display: flex;
   gap:24px;  
@@ -173,9 +169,7 @@ nav .menu a{
 
 }
 #resume .resume-container{
-    width: 71%;
-    max-width: 1140px;
-    margin: 113px auto 0;
+     margin-top: 113px;
     display: flex;
     gap: 24px;
 
@@ -220,9 +214,7 @@ footer{
 
 }
 footer .footer-container{
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
+    
     display: flex;
     gap: 116px;
 
